@@ -103,4 +103,5 @@ This project was inspired and adapted from open-source work by:
 
 ## 📄 License
 
-For academic and prototype use only. Contact the author for further usage.
+For academic and prototype use only. This project is **not licensed for public reuse**. Forking, copying, or redistributing the code without explicit permission is **prohibited**.
+ Contact the author for further usage.
