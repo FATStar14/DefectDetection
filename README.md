@@ -21,6 +21,28 @@ This project is a **real-time fabric defect detection system** using OpenCV, Gra
 
 ---
 
+## 📁 Dataset Folder Setup
+
+Before training or using your own data, make sure to create a dataset folder:
+
+```bash
+mkdir dataset
+```
+
+Place your training images into subfolders for each class inside the `dataset/` directory, like this:
+
+```
+dataset/
+├── hole/
+├── tear/
+├── stain/
+└── no_defect/
+```
+
+Each subfolder should contain images representing that defect type.
+
+---
+
 ## 📦 Requirements
 
 Install the dependencies using `pip`:
@@ -49,11 +71,16 @@ python your_script_name.py
 ## 📂 File Structure
 
 ```plaintext
-├── svm_fabric_defect.pkl         # Trained SVM model
-├── scaler.pkl                    # Feature scaler (StandardScaler or MinMax)
-├── alert.mp3                     # Sound played upon defect detection
-├── main.py                       # Main script with Gradio UI
-└── README.md                     # Project documentation
+├── dataset/                     # Folder containing training data
+│   ├── hole/
+│   ├── tear/
+│   ├── stain/
+│   └── no_defect/
+├── svm_fabric_defect.pkl       # Trained SVM model
+├── scaler.pkl                  # Feature scaler
+├── alert.mp3                   # Sound played upon defect detection
+├── main.py                     # Main script with Gradio UI
+└── README.md                   # Project documentation
 ```
 
 ---
@@ -103,5 +130,4 @@ This project was inspired and adapted from open-source work by:
 
 ## 📄 License
 
-For academic and prototype use only. This project is **not licensed for public reuse**. Forking, copying, or redistributing the code without explicit permission is **prohibited**.
- Contact the author for further usage.
+For academic and prototype use only. Contact the authors for further usage.
