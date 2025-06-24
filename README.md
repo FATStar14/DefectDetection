@@ -1,4 +1,4 @@
-# 🧵 Cotton Fabric Defect Detection System
+# Cotton Fabric Defect Detection System
 
 This project is a **real-time fabric defect detection system** using OpenCV, Gradio, and machine learning (SVM with handcrafted features like LBP and Gabor filters). It's designed for integration with a camera-equipped conveyor belt to identify textile defects like **holes, tears, and stains**.
 
@@ -7,7 +7,7 @@ This project is a **real-time fabric defect detection system** using OpenCV, Gra
 
 ---
 
-## 🚀 Features
+## Features
 
 - Real-time webcam-based defect detection
 - Uses:
@@ -21,7 +21,7 @@ This project is a **real-time fabric defect detection system** using OpenCV, Gra
 
 ---
 
-## 📁 Dataset Folder Setup
+## Dataset Folder Setup
 
 Before training or using your own data, make sure to create a dataset folder:
 
@@ -43,7 +43,7 @@ Each subfolder should contain images representing that defect type.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install the dependencies using `pip`:
 
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. Ensure your camera is connected and working.
 2. Place `svm_fabric_defect.pkl`, `scaler.pkl`, and `alert.mp3` in the root directory.
@@ -68,7 +68,7 @@ python your_script_name.py
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```plaintext
 ├── dataset/                     # Folder containing training data
@@ -85,7 +85,7 @@ python your_script_name.py
 
 ---
 
-## 🔍 Defects Detected
+## Defects Detected
 
 - **Hole**
 - **Tear**
@@ -96,14 +96,14 @@ Each detection is buffered and stabilized using **weighted majority voting** for
 
 ---
 
-## 📸 Camera Note
+## Camera Note
 
 - The script auto-detects available webcams.
 - If only one is connected, it defaults to index `"0"`.
 
 ---
 
-## 🧹 Resetting Detection
+## Resetting Detection
 
 Click **Stop Detection** to:
 - Halt the webcam feed
@@ -111,7 +111,7 @@ Click **Stop Detection** to:
 
 ---
 
-## 🔊 Alert System
+## Alert System
 
 An alert sound is played only when:
 - A new type of defect is detected, **or**
@@ -119,12 +119,14 @@ An alert sound is played only when:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This project was inspired and adapted from open-source work by:
 - [x-Ck-x](https://github.com/x-Ck-x)
 - [Prahmodh-Raj1](https://github.com/Prahmodh-Raj1)
 - [tirthajyoti](https://github.com/tirthajyoti)
+
+This README file was made with AI.
 
 ---
 
