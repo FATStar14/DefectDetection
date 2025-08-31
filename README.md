@@ -43,16 +43,6 @@ Each subfolder should contain images representing that defect type.
 
 ---
 
-## Requirements
-
-Install the dependencies using `pip`:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## How to Run
 
 1. Ensure your camera is connected and working.
