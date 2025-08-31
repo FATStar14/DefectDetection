@@ -17,7 +17,7 @@ This project is a **real-time fabric defect detection system** using OpenCV, Gra
 - **SVM-based classifier** trained on extracted features
 - **Audio alert** on new defects
 - **Defect summary counter**
-- GUI built with **Gradio**
+- GUI built with **Streamlit**
 
 ---
 
