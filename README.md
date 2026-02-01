@@ -1,6 +1,6 @@
 # Cotton Fabric Defect Detection System
 
-This project is a **real-time fabric defect detection system** using OpenCV, Gradio, and machine learning (SVM with handcrafted features like LBP and Gabor filters). It's designed for integration with a camera-equipped conveyor belt to identify textile defects like **holes, tears, and stains**.
+This project is a **real-time fabric defect detection system** using OpenCV, Gradio, and machine learning (SVM with features like LBP and Gabor filters). It's designed for integration with a camera-equipped conveyor belt to identify textile defects like **holes, tears, and stains**.
 
 > Developed by Group 1 – 12 STEM 8B, Far Eastern University High School Inc.  
 > Built with references to GitHub contributors: `x-Ck-x`, `Prahmodh-Raj1`, and `tirthajyoti`.
